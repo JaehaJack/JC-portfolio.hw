@@ -2,13 +2,18 @@
   --primary-bg-color: #719192;
   --secondary-color: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
   --default-font-color: rgb(70, 57, 27);
-  --default-font-family: 'Arsenal', sans-serif;
-  --header-font-family: 'Playfair Display', serif;
-  --sub-header-font-family: 'Satisfy', cursive;
+  --default-font-family: "Arsenal", sans-serif;
+  --header-font-family: "Playfair Display", serif;
+  --sub-header-font-family: "Satisfy", cursive;
 }
 
 body {
   font-family: var(--default-font-family);
+}
+
+.hero {
+  background: var(--secondary-color);
+  position: relative;
 }
 
 .hero h1 {
@@ -18,3 +23,24 @@ body {
 .hero h2 {
   font-family: var(--sub-header-font-family);
   font-style: italic;
+  margin-bottom: 25px;
+}
+
+.navigationLinks {
+  display: flex;
+  justify-content: center;
+}
+
+.navigationLinks a {
+  color: var(--default-font-color);
+  font-family: var(--default-font-family);
+  padding: 15px;
+}
+
+.row div {
+  max-width: 100%;
+}
+
+.large-photo {
+  border: 1px solid #e2d1c3;
+}

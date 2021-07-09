@@ -29,7 +29,7 @@
     <div class="navigationBar">
       <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Jazmi C.</a>
+          <a class="navbar-brand" href="/index.html">My Digital Portfolio</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -66,93 +66,56 @@
       </nav>
     </div>
 
-    <div class="hero text-center">
-      <h1 class="mt-5 p-4">My Digital Portfolio</h1>
-      <h2>Hi! I'm Jazmi, a Front-end Developer based in Canada🍁</h2>
-      <hr />
+    <div class="hero text-center container-fluid">
+      <h1 class="mt-5 p-4">Hi! I'm Jazmi.</h1>
+      <h2>Front-end Developer based in Canada🍁</h2>
+
+      <div class="navigationLinks">
+        <a href="#" class="aboutLink">About me</a>
+        <a href="#" class="projectLink">Projects Page</a>
+        <a href="#" class="contactLink">Contact Me</a>
+      </div>
     </div>
 
-    <div class="container-1 container-fluid">
-      <div
-        id="carouselExampleCaptions"
-        class="carousel slide"
-        data-bs-ride="carousel"
-      >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="images/weather.PNG"
-              class="d-block w-100 image-fluid"
-              alt="weather app project"
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Weather App Project</h5>
-              <p>Launch App!</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src="images/yoga.PNG"
-              class="d-block w-100 image-fluid"
-              alt="simple website design"
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Simple Website Design</h5>
-              <p>Launch Website!</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src="images/yogurt.PNG"
-              class="d-block w-100 image-fluid"
-              alt="mobile design test app"
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Mobile App Design Check</h5>
-              <p>Check product sample!</p>
-            </div>
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+    <div class="row container-fluid">
+      <div class="large-photo col-sm-6 image-fluid rounded my-3">
+        <img src="images/weather.PNG" alt="weather app" />
+      </div>
+      <div class="col-sm-6 text-center">
+        <h2>Weather App</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+          aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
+          alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
+          blanditiis harum.
+        </p>
+        <button>Launch Weather App</button>
+      </div>
+      <div class="col-sm-6">
+        <h2>Website Design</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+          aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
+          alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
+          blanditiis harum.
+        </p>
+        <button>Launch Website</button>
+      </div>
+      <div class="large-photo col-sm-6 image-fluid rounded">
+        <img src="images/yoga.PNG" alt="simple website" />
+      </div>
+      <div class="large-photo col-sm-6 image-fluid rounded">
+        <img src="images/yogurt.PNG" alt="mobile app design check" />
+      </div>
+      <div class="col-sm-6">
+        <h2>Mobile design check</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam
+          aperiam provident tempora? Cumque adipisci, non dolorem quia, odit qui
+          alias veniam excepturi rem dolor fugit dignissimos, sed voluptatum
+          blanditiis harum.
+        </p>
+        <button>See Mobile Design</button>
       </div>
     </div>
   </body>

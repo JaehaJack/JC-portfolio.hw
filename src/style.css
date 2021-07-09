@@ -69,6 +69,11 @@ img {
   font-family: var(--default-font-family);
 }
 
-.large-photo {
+.large-photo,
+.small-photo {
   border: 1px solid #e2d1c3;
+}
+
+.carousel {
+  margin-top: 15px;
 }

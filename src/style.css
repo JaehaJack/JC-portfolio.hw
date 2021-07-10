@@ -13,11 +13,13 @@ body {
 
 h1 {
   font-family: var(--header-font-family);
+  font-size: 100px;
 }
 
 h2 {
   font-family: var(--sub-header-font-family);
   font-style: italic;
+  font-size: 60px;
 }
 
 p {
@@ -36,19 +38,28 @@ img {
   max-width: 100%;
 }
 
+@media (max-width: 576px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+  .navigationLinks a {
+    font-size: 14px;
+  }
+}
+
 .hero,
 .briefIntro {
   background: var(--secondary-color);
   position: relative;
   max-width: 100%;
-}
-
-.briefIntro h1 {
-  font-size: 100px;
-}
-
-.briefIntro h2 {
-  font-size: 60px;
 }
 
 .hero h2 {
@@ -73,21 +84,4 @@ img {
 
 .carousel {
   margin-top: 15px;
-}
-
-@media (max-width: 576px) {
-  h1 {
-    font-size: 30px;
-  }
-
-  h2 {
-    font-size: 18px;
-  }
-
-  p {
-    font-size: 14px;
-  }
-  .navigationLinks a {
-    font-size: 14px;
-  }
 }

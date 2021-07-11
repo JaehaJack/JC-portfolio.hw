@@ -34,6 +34,10 @@ a {
   font-size: 18px;
 }
 
+i {
+  color: #e2d1c3;
+}
+
 button {
   border: 1px solid #e2d1c3;
   border-radius: 4%;
@@ -43,6 +47,11 @@ button {
 
 img {
   max-width: 100%;
+}
+
+li {
+  list-style: none;
+  font-family: var(--default-font-family);
 }
 
 @media (max-width: 576px) {
@@ -65,9 +74,14 @@ img {
 
 .hero,
 .briefIntro,
-.gallery {
+.gallery,
+.contactList {
   background: var(--secondary-color);
   position: relative;
+  max-width: 100%;
+}
+
+.contactOptions {
   max-width: 100%;
 }
 
@@ -87,4 +101,8 @@ img {
 
 .carousel {
   margin-top: 15px;
+}
+
+.contactOptions {
+  border: 0.5px solid #e2d1c3;
 }

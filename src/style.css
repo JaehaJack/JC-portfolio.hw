@@ -22,9 +22,10 @@ h2 {
   font-size: 60px;
 }
 
-h4 {
+h3 {
   font-family: var(--sub-header-font-family);
   font-size: 60px;
+  color: #e2d1c3;
 }
 
 p {
@@ -37,7 +38,7 @@ a {
   font-family: var(--default-font-family);
   padding: 15px;
   font-size: 18px;
-  transition: all 100ms ease-in-out;
+  transition: all 90ms ease-in-out;
   text-decoration: none;
 }
 
